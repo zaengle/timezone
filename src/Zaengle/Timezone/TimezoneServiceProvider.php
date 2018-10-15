@@ -1,4 +1,4 @@
-<?php namespace Camroncade\Timezone;
+<?php namespace Zaengle\Timezone;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;
@@ -19,7 +19,11 @@ class TimezoneServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		AliasLoader::getInstance()->alias('Timezone', \Camroncade\Timezone\Facades\Timezone::class);
+        $this->publishes([
+            __DIR__.'/../config/timezone.php' => config_path('timezone.php'),
+        ], 'config');
+
+        $this->app->alias('Timezone', Timezone::class);
 	}
 
 	/**
@@ -29,6 +33,7 @@ class TimezoneServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
+        $this->mergeConfigFrom(__DIR__.'/../config/timezone.php', 'timezone');
 		$this->app->bind('timezone', Timezone::class);
 	}
 

@@ -16,9 +16,13 @@ Next, update Composer from the Terminal:
 
 Once this operation completes, the final step is to add the service provider. Open `config/app.php`, and add a new item to the service providers array.
 
-    'Camroncade\Timezone\TimezoneServiceProvider'
+    'Zaengle\Timezone\TimezoneServiceProvider'
 
 Now it's ready for use!
+
+Publishing config:
+
+	php artisan vendor:publish --tag=config --provider="Zaengle\Timezone\TimezoneServiceProvider"
 
 ## Usage
 
