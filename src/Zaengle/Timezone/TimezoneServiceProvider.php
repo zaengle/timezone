@@ -10,7 +10,7 @@ class TimezoneServiceProvider extends ServiceProvider {
 	 *
 	 * @var bool
 	 */
-	protected $defer = false;
+	protected $defer = true;
 
 	/**
 	 * Bootstrap the application events.
@@ -23,7 +23,6 @@ class TimezoneServiceProvider extends ServiceProvider {
             __DIR__.'/../config/timezone.php' => config_path('timezone.php'),
         ], 'config');
 
-        $this->app->alias('Timezone', Timezone::class);
 	}
 
 	/**
@@ -34,7 +33,10 @@ class TimezoneServiceProvider extends ServiceProvider {
 	public function register()
 	{
         $this->mergeConfigFrom(__DIR__.'/../config/timezone.php', 'timezone');
-		$this->app->bind('timezone', Timezone::class);
+
+        $this->app->singleton(Timezone::class, function($app) {
+            return new Timezone();
+        });
 	}
 
 	/**
@@ -44,7 +46,7 @@ class TimezoneServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array();
+		return [Timezone::class];
 	}
 
 }

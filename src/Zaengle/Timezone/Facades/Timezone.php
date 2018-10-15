@@ -14,6 +14,6 @@ class Timezone extends Facade
      */
     public static function getFacadeAccessor()
     {
-        return 'timezone';
+        return \Zaengle\Timezone\Timezone::class;
     }
 }

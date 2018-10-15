@@ -40,7 +40,7 @@
                 "Zaengle\\Timezone\\TimezoneServiceProvider"
             ],
             "aliases": {
-                "Fractal": "Zaengle\\Timezone\\Facades\\Timezone"
+                "Timezone": "Zaengle\\Timezone\\Facades\\Timezone"
             }
         }
     }

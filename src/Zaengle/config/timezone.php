@@ -2,148 +2,720 @@
 
 return [
     'timezones' => [
-        '(UTC-11:00) Midway Island' => 'Pacific/Midway',
-        '(UTC-11:00) Samoa' => 'Pacific/Samoa',
-        '(UTC-10:00) Hawaii' => 'Pacific/Honolulu',
-        '(UTC-09:00) Alaska' => 'US/Alaska',
-        '(UTC-08:00) Pacific Time (US &amp; Canada)' => 'America/Los_Angeles',
-        '(UTC-08:00) Tijuana' => 'America/Tijuana',
-        '(UTC-07:00) Arizona' => 'US/Arizona',
-        '(UTC-07:00) Chihuahua' => 'America/Chihuahua',
-        '(UTC-07:00) La Paz' => 'America/Chihuahua',
-        '(UTC-07:00) Mazatlan' => 'America/Mazatlan',
-        '(UTC-07:00) Mountain Time (US &amp; Canada)' => 'US/Mountain',
-        '(UTC-06:00) Central America' => 'America/Managua',
-        '(UTC-06:00) Central Time (US &amp; Canada)' => 'US/Central',
-        '(UTC-06:00) Guadalajara' => 'America/Mexico_City',
-        '(UTC-06:00) Mexico City' => 'America/Mexico_City',
-        '(UTC-06:00) Monterrey' => 'America/Monterrey',
-        '(UTC-06:00) Saskatchewan' => 'Canada/Saskatchewan',
-        '(UTC-05:00) Bogota' => 'America/Bogota',
-        '(UTC-05:00) Eastern Time (US &amp; Canada)' => 'US/Eastern',
-        '(UTC-05:00) Indiana (East)' => 'US/East-Indiana',
-        '(UTC-05:00) Lima' => 'America/Lima',
-        '(UTC-05:00) Quito' => 'America/Bogota',
-        '(UTC-04:00) Atlantic Time (Canada)' => 'Canada/Atlantic',
-        '(UTC-04:30) Caracas' => 'America/Caracas',
-        '(UTC-04:00) La Paz' => 'America/La_Paz',
-        '(UTC-04:00) Santiago' => 'America/Santiago',
-        '(UTC-03:30) Newfoundland' => 'Canada/Newfoundland',
-        '(UTC-03:00) Brasilia' => 'America/Sao_Paulo',
-        '(UTC-03:00) Buenos Aires' => 'America/Argentina/Buenos_Aires',
-        '(UTC-03:00) Georgetown' => 'America/Argentina/Buenos_Aires',
-        '(UTC-03:00) Greenland' => 'America/Godthab',
-        '(UTC-02:00) Mid-Atlantic' => 'America/Noronha',
-        '(UTC-01:00) Azores' => 'Atlantic/Azores',
-        '(UTC-01:00) Cape Verde Is.' => 'Atlantic/Cape_Verde',
-        '(UTC+00:00) Casablanca' => 'Africa/Casablanca',
-        '(UTC+00:00) Edinburgh' => 'Europe/London',
-        '(UTC+00:00) Greenwich Mean Time : Dublin' => 'Etc/Greenwich',
-        '(UTC+00:00) Lisbon' => 'Europe/Lisbon',
-        '(UTC+00:00) London' => 'Europe/London',
-        '(UTC+00:00) Monrovia' => 'Africa/Monrovia',
-        '(UTC+00:00) UTC' => 'UTC',
-        '(UTC+01:00) Amsterdam' => 'Europe/Amsterdam',
-        '(UTC+01:00) Belgrade' => 'Europe/Belgrade',
-        '(UTC+01:00) Berlin' => 'Europe/Berlin',
-        '(UTC+01:00) Bern' => 'Europe/Berlin',
-        '(UTC+01:00) Bratislava' => 'Europe/Bratislava',
-        '(UTC+01:00) Brussels' => 'Europe/Brussels',
-        '(UTC+01:00) Budapest' => 'Europe/Budapest',
-        '(UTC+01:00) Copenhagen' => 'Europe/Copenhagen',
-        '(UTC+01:00) Ljubljana' => 'Europe/Ljubljana',
-        '(UTC+01:00) Madrid' => 'Europe/Madrid',
-        '(UTC+01:00) Paris' => 'Europe/Paris',
-        '(UTC+01:00) Prague' => 'Europe/Prague',
-        '(UTC+01:00) Rome' => 'Europe/Rome',
-        '(UTC+01:00) Sarajevo' => 'Europe/Sarajevo',
-        '(UTC+01:00) Skopje' => 'Europe/Skopje',
-        '(UTC+01:00) Stockholm' => 'Europe/Stockholm',
-        '(UTC+01:00) Vienna' => 'Europe/Vienna',
-        '(UTC+01:00) Warsaw' => 'Europe/Warsaw',
-        '(UTC+01:00) West Central Africa' => 'Africa/Lagos',
-        '(UTC+01:00) Zagreb' => 'Europe/Zagreb',
-        '(UTC+02:00) Athens' => 'Europe/Athens',
-        '(UTC+02:00) Bucharest' => 'Europe/Bucharest',
-        '(UTC+02:00) Cairo' => 'Africa/Cairo',
-        '(UTC+02:00) Harare' => 'Africa/Harare',
-        '(UTC+02:00) Helsinki' => 'Europe/Helsinki',
-        '(UTC+02:00) Istanbul' => 'Europe/Istanbul',
-        '(UTC+02:00) Jerusalem' => 'Asia/Jerusalem',
-        '(UTC+02:00) Kyiv' => 'Europe/Helsinki',
-        '(UTC+02:00) Pretoria' => 'Africa/Johannesburg',
-        '(UTC+02:00) Riga' => 'Europe/Riga',
-        '(UTC+02:00) Sofia' => 'Europe/Sofia',
-        '(UTC+02:00) Tallinn' => 'Europe/Tallinn',
-        '(UTC+02:00) Vilnius' => 'Europe/Vilnius',
-        '(UTC+03:00) Baghdad' => 'Asia/Baghdad',
-        '(UTC+03:00) Kuwait' => 'Asia/Kuwait',
-        '(UTC+03:00) Minsk' => 'Europe/Minsk',
-        '(UTC+03:00) Nairobi' => 'Africa/Nairobi',
-        '(UTC+03:00) Riyadh' => 'Asia/Riyadh',
-        '(UTC+03:00) Volgograd' => 'Europe/Volgograd',
-        '(UTC+03:30) Tehran' => 'Asia/Tehran',
-        '(UTC+04:00) Abu Dhabi' => 'Asia/Muscat',
-        '(UTC+04:00) Baku' => 'Asia/Baku',
-        '(UTC+04:00) Moscow' => 'Europe/Moscow',
-        '(UTC+04:00) Muscat' => 'Asia/Muscat',
-        '(UTC+04:00) St. Petersburg' => 'Europe/Moscow',
-        '(UTC+04:00) Tbilisi' => 'Asia/Tbilisi',
-        '(UTC+04:00) Yerevan' => 'Asia/Yerevan',
-        '(UTC+04:30) Kabul' => 'Asia/Kabul',
-        '(UTC+05:00) Islamabad' => 'Asia/Karachi',
-        '(UTC+05:00) Karachi' => 'Asia/Karachi',
-        '(UTC+05:00) Tashkent' => 'Asia/Tashkent',
-        '(UTC+05:30) Chennai' => 'Asia/Calcutta',
-        '(UTC+05:30) Kolkata' => 'Asia/Kolkata',
-        '(UTC+05:30) Mumbai' => 'Asia/Calcutta',
-        '(UTC+05:30) New Delhi' => 'Asia/Calcutta',
-        '(UTC+05:30) Sri Jayawardenepura' => 'Asia/Calcutta',
-        '(UTC+05:45) Kathmandu' => 'Asia/Katmandu',
-        '(UTC+06:00) Almaty' => 'Asia/Almaty',
-        '(UTC+06:00) Astana' => 'Asia/Dhaka',
-        '(UTC+06:00) Dhaka' => 'Asia/Dhaka',
-        '(UTC+06:00) Ekaterinburg' => 'Asia/Yekaterinburg',
-        '(UTC+06:30) Rangoon' => 'Asia/Rangoon',
-        '(UTC+07:00) Bangkok' => 'Asia/Bangkok',
-        '(UTC+07:00) Hanoi' => 'Asia/Bangkok',
-        '(UTC+07:00) Jakarta' => 'Asia/Jakarta',
-        '(UTC+07:00) Novosibirsk' => 'Asia/Novosibirsk',
-        '(UTC+08:00) Beijing' => 'Asia/Hong_Kong',
-        '(UTC+08:00) Chongqing' => 'Asia/Chongqing',
-        '(UTC+08:00) Hong Kong' => 'Asia/Hong_Kong',
-        '(UTC+08:00) Krasnoyarsk' => 'Asia/Krasnoyarsk',
-        '(UTC+08:00) Kuala Lumpur' => 'Asia/Kuala_Lumpur',
-        '(UTC+08:00) Perth' => 'Australia/Perth',
-        '(UTC+08:00) Singapore' => 'Asia/Singapore',
-        '(UTC+08:00) Taipei' => 'Asia/Taipei',
-        '(UTC+08:00) Ulaan Bataar' => 'Asia/Ulan_Bator',
-        '(UTC+08:00) Urumqi' => 'Asia/Urumqi',
-        '(UTC+09:00) Irkutsk' => 'Asia/Irkutsk',
-        '(UTC+09:00) Osaka' => 'Asia/Tokyo',
-        '(UTC+09:00) Sapporo' => 'Asia/Tokyo',
-        '(UTC+09:00) Seoul' => 'Asia/Seoul',
-        '(UTC+09:00) Tokyo' => 'Asia/Tokyo',
-        '(UTC+09:30) Adelaide' => 'Australia/Adelaide',
-        '(UTC+09:30) Darwin' => 'Australia/Darwin',
-        '(UTC+10:00) Brisbane' => 'Australia/Brisbane',
-        '(UTC+10:00) Canberra' => 'Australia/Canberra',
-        '(UTC+10:00) Guam' => 'Pacific/Guam',
-        '(UTC+10:00) Hobart' => 'Australia/Hobart',
-        '(UTC+10:00) Melbourne' => 'Australia/Melbourne',
-        '(UTC+10:00) Port Moresby' => 'Pacific/Port_Moresby',
-        '(UTC+10:00) Sydney' => 'Australia/Sydney',
-        '(UTC+10:00) Yakutsk' => 'Asia/Yakutsk',
-        '(UTC+11:00) Vladivostok' => 'Asia/Vladivostok',
-        '(UTC+12:00) Auckland' => 'Pacific/Auckland',
-        '(UTC+12:00) Fiji' => 'Pacific/Fiji',
-        '(UTC+12:00) International Date Line West' => 'Pacific/Kwajalein',
-        '(UTC+12:00) Kamchatka' => 'Asia/Kamchatka',
-        '(UTC+12:00) Magadan' => 'Asia/Magadan',
-        '(UTC+12:00) Marshall Is.' => 'Pacific/Fiji',
-        '(UTC+12:00) New Caledonia' => 'Asia/Magadan',
-        '(UTC+12:00) Solomon Is.' => 'Asia/Magadan',
-        '(UTC+12:00) Wellington' => 'Pacific/Auckland',
-        '(UTC+13:00) Nuku\'alofa' => 'Pacific/Tongatapu',
+        [
+            'id'      => 'Pacific/Midway',
+            'title'   => '(UTC-11:00) Midway Island',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-11:00) Samoa',
+            'title'   => 'Pacific/Samoa',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-10:00) Hawaii',
+            'title'   => 'Pacific/Honolulu',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-09:00) Alaska',
+            'title'   => 'US/Alaska',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-08:00) Pacific Time (US &amp; Canada)',
+            'title'   => 'America/Los_Angeles',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-08:00) Tijuana',
+            'title'   => 'America/Tijuana',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-07:00) Arizona',
+            'title'   => 'US/Arizona',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-07:00) Chihuahua',
+            'title'   => 'America/Chihuahua',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-07:00) La Paz',
+            'title'   => 'America/Chihuahua',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-07:00) Mazatlan',
+            'title'   => 'America/Mazatlan',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-07:00) Mountain Time (US &amp; Canada)',
+            'title'   => 'US/Mountain',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-06:00) Central America',
+            'title'   => 'America/Managua',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-06:00) Central Time (US &amp; Canada)',
+            'title'   => 'US/Central',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-06:00) Guadalajara',
+            'title'   => 'America/Mexico_City',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-06:00) Mexico City',
+            'title'   => 'America/Mexico_City',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-06:00) Monterrey',
+            'title'   => 'America/Monterrey',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-06:00) Saskatchewan',
+            'title'   => 'Canada/Saskatchewan',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-05:00) Bogota',
+            'title'   => 'America/Bogota',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-05:00) Eastern Time (US &amp; Canada)',
+            'title'   => 'US/Eastern',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-05:00) Indiana (East)',
+            'title'   => 'US/East-Indiana',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-05:00) Lima',
+            'title'   => 'America/Lima',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-05:00) Quito',
+            'title'   => 'America/Bogota',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-04:00) Atlantic Time (Canada)',
+            'title'   => 'Canada/Atlantic',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-04:30) Caracas',
+            'title'   => 'America/Caracas',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-04:00) La Paz',
+            'title'   => 'America/La_Paz',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-04:00) Santiago',
+            'title'   => 'America/Santiago',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-03:30) Newfoundland',
+            'title'   => 'Canada/Newfoundland',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-03:00) Brasilia',
+            'title'   => 'America/Sao_Paulo',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-03:00) Buenos Aires',
+            'title'   => 'America/Argentina/Buenos_Aires',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-03:00) Georgetown',
+            'title'   => 'America/Argentina/Buenos_Aires',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-03:00) Greenland',
+            'title'   => 'America/Godthab',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-02:00) Mid-Atlantic',
+            'title'   => 'America/Noronha',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-01:00) Azores',
+            'title'   => 'Atlantic/Azores',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC-01:00) Cape Verde Is.',
+            'title'   => 'Atlantic/Cape_Verde',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+00:00) Casablanca',
+            'title'   => 'Africa/Casablanca',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+00:00) Edinburgh',
+            'title'   => 'Europe/London',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+00:00) Greenwich Mean Time : Dublin',
+            'title'   => 'Etc/Greenwich',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+00:00) Lisbon',
+            'title'   => 'Europe/Lisbon',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+00:00) London',
+            'title'   => 'Europe/London',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+00:00) Monrovia',
+            'title'   => 'Africa/Monrovia',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+00:00) UTC',
+            'title'   => 'UTC',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Amsterdam',
+            'title'   => 'Europe/Amsterdam',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Belgrade',
+            'title'   => 'Europe/Belgrade',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Berlin',
+            'title'   => 'Europe/Berlin',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Bern',
+            'title'   => 'Europe/Berlin',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Bratislava',
+            'title'   => 'Europe/Bratislava',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Brussels',
+            'title'   => 'Europe/Brussels',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Budapest',
+            'title'   => 'Europe/Budapest',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Copenhagen',
+            'title'   => 'Europe/Copenhagen',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Ljubljana',
+            'title'   => 'Europe/Ljubljana',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Madrid',
+            'title'   => 'Europe/Madrid',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Paris',
+            'title'   => 'Europe/Paris',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Prague',
+            'title'   => 'Europe/Prague',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Rome',
+            'title'   => 'Europe/Rome',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Sarajevo',
+            'title'   => 'Europe/Sarajevo',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Skopje',
+            'title'   => 'Europe/Skopje',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Stockholm',
+            'title'   => 'Europe/Stockholm',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Vienna',
+            'title'   => 'Europe/Vienna',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Warsaw',
+            'title'   => 'Europe/Warsaw',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) West Central Africa',
+            'title'   => 'Africa/Lagos',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+01:00) Zagreb',
+            'title'   => 'Europe/Zagreb',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+02:00) Athens',
+            'title'   => 'Europe/Athens',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+02:00) Bucharest',
+            'title'   => 'Europe/Bucharest',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+02:00) Cairo',
+            'title'   => 'Africa/Cairo',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+02:00) Harare',
+            'title'   => 'Africa/Harare',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+02:00) Helsinki',
+            'title'   => 'Europe/Helsinki',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+02:00) Istanbul',
+            'title'   => 'Europe/Istanbul',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+02:00) Jerusalem',
+            'title'   => 'Asia/Jerusalem',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+02:00) Kyiv',
+            'title'   => 'Europe/Helsinki',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+02:00) Pretoria',
+            'title'   => 'Africa/Johannesburg',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+02:00) Riga',
+            'title'   => 'Europe/Riga',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+02:00) Sofia',
+            'title'   => 'Europe/Sofia',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+02:00) Tallinn',
+            'title'   => 'Europe/Tallinn',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+02:00) Vilnius',
+            'title'   => 'Europe/Vilnius',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+03:00) Baghdad',
+            'title'   => 'Asia/Baghdad',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+03:00) Kuwait',
+            'title'   => 'Asia/Kuwait',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+03:00) Minsk',
+            'title'   => 'Europe/Minsk',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+03:00) Nairobi',
+            'title'   => 'Africa/Nairobi',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+03:00) Riyadh',
+            'title'   => 'Asia/Riyadh',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+03:00) Volgograd',
+            'title'   => 'Europe/Volgograd',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+03:30) Tehran',
+            'title'   => 'Asia/Tehran',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+04:00) Abu Dhabi',
+            'title'   => 'Asia/Muscat',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+04:00) Baku',
+            'title'   => 'Asia/Baku',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+04:00) Moscow',
+            'title'   => 'Europe/Moscow',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+04:00) Muscat',
+            'title'   => 'Asia/Muscat',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+04:00) St. Petersburg',
+            'title'   => 'Europe/Moscow',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+04:00) Tbilisi',
+            'title'   => 'Asia/Tbilisi',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+04:00) Yerevan',
+            'title'   => 'Asia/Yerevan',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+04:30) Kabul',
+            'title'   => 'Asia/Kabul',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+05:00) Islamabad',
+            'title'   => 'Asia/Karachi',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+05:00) Karachi',
+            'title'   => 'Asia/Karachi',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+05:00) Tashkent',
+            'title'   => 'Asia/Tashkent',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+05:30) Chennai',
+            'title'   => 'Asia/Calcutta',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+05:30) Kolkata',
+            'title'   => 'Asia/Kolkata',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+05:30) Mumbai',
+            'title'   => 'Asia/Calcutta',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+05:30) New Delhi',
+            'title'   => 'Asia/Calcutta',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+05:30) Sri Jayawardenepura',
+            'title'   => 'Asia/Calcutta',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+05:45) Kathmandu',
+            'title'   => 'Asia/Katmandu',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+06:00) Almaty',
+            'title'   => 'Asia/Almaty',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+06:00) Astana',
+            'title'   => 'Asia/Dhaka',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+06:00) Dhaka',
+            'title'   => 'Asia/Dhaka',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+06:00) Ekaterinburg',
+            'title'   => 'Asia/Yekaterinburg',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+06:30) Rangoon',
+            'title'   => 'Asia/Rangoon',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+07:00) Bangkok',
+            'title'   => 'Asia/Bangkok',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+07:00) Hanoi',
+            'title'   => 'Asia/Bangkok',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+07:00) Jakarta',
+            'title'   => 'Asia/Jakarta',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+07:00) Novosibirsk',
+            'title'   => 'Asia/Novosibirsk',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+08:00) Beijing',
+            'title'   => 'Asia/Hong_Kong',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+08:00) Chongqing',
+            'title'   => 'Asia/Chongqing',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+08:00) Hong Kong',
+            'title'   => 'Asia/Hong_Kong',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+08:00) Krasnoyarsk',
+            'title'   => 'Asia/Krasnoyarsk',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+08:00) Kuala Lumpur',
+            'title'   => 'Asia/Kuala_Lumpur',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+08:00) Perth',
+            'title'   => 'Australia/Perth',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+08:00) Singapore',
+            'title'   => 'Asia/Singapore',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+08:00) Taipei',
+            'title'   => 'Asia/Taipei',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+08:00) Ulaan Bataar',
+            'title'   => 'Asia/Ulan_Bator',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+08:00) Urumqi',
+            'title'   => 'Asia/Urumqi',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+09:00) Irkutsk',
+            'title'   => 'Asia/Irkutsk',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+09:00) Osaka',
+            'title'   => 'Asia/Tokyo',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+09:00) Sapporo',
+            'title'   => 'Asia/Tokyo',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+09:00) Seoul',
+            'title'   => 'Asia/Seoul',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+09:00) Tokyo',
+            'title'   => 'Asia/Tokyo',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+09:30) Adelaide',
+            'title'   => 'Australia/Adelaide',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+09:30) Darwin',
+            'title'   => 'Australia/Darwin',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+10:00) Brisbane',
+            'title'   => 'Australia/Brisbane',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+10:00) Canberra',
+            'title'   => 'Australia/Canberra',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+10:00) Guam',
+            'title'   => 'Pacific/Guam',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+10:00) Hobart',
+            'title'   => 'Australia/Hobart',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+10:00) Melbourne',
+            'title'   => 'Australia/Melbourne',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+10:00) Port Moresby',
+            'title'   => 'Pacific/Port_Moresby',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+10:00) Sydney',
+            'title'   => 'Australia/Sydney',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+10:00) Yakutsk',
+            'title'   => 'Asia/Yakutsk',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+11:00) Vladivostok',
+            'title'   => 'Asia/Vladivostok',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+12:00) Auckland',
+            'title'   => 'Pacific/Auckland',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+12:00) Fiji',
+            'title'   => 'Pacific/Fiji',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+12:00) International Date Line West',
+            'title'   => 'Pacific/Kwajalein',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+12:00) Kamchatka',
+            'title'   => 'Asia/Kamchatka',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+12:00) Magadan',
+            'title'   => 'Asia/Magadan',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+12:00) Marshall Is.',
+            'title'   => 'Pacific/Fiji',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+12:00) New Caledonia',
+            'title'   => 'Asia/Magadan',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+12:00) Solomon Is.',
+            'title'   => 'Asia/Magadan',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+12:00) Wellington',
+            'title'   => 'Pacific/Auckland',
+            'enabled' => true
+        ],
+        [
+            'id'      => '(UTC+13:00) Nuku\'alofa',
+            'title'   => 'Pacific/Tongatapu',
+            'enabled' => true
+        ],
     ],
 ];

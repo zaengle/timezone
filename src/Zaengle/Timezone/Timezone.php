@@ -15,54 +15,26 @@ class Timezone
      */
     public function getTimezones()
     {
-        return config('timezone.timezones');
+        return collect(config('timezone.timezones'))
+            ->filter(function($timezone) {
+                return $timezone['enabled'] === true;
+            })->map(function($timezone) {
+                return [
+                    'id' => $timezone['id'],
+                    'title' => $timezone['title']
+                ];
+            });
     }
 
     /**
-     * @param null $selected
-     * @param null $placeholder
-     * @param array $selectAttributes
-     * @param array $optionAttributes
-     *
-     * @return string
+     * @return mixed
      */
-    public function selectForm(
-        $selected = null,
-        $placeholder = null,
-        array $selectAttributes = [],
-        array $optionAttributes = []
-    ) {
-        $selectAttributesString = '';
-        foreach ($selectAttributes as $key => $value) {
-            $selectAttributesString = $selectAttributesString." ".$key."='".$value."'";
-        }
-
-        $optionAttributesString = '';
-        foreach ($optionAttributes as $key => $value) {
-            $optionAttributesString = $optionAttributesString." ".$key."='".$value."'";
-        }
-
-        $string = "<select".$selectAttributesString.">\n";
-
-        if (isset($placeholder) && (empty($selected))) {
-            $placeholder = "<option value='' disabled selected>{$placeholder}</option>";
-        } else {
-            $placeholder = null;
-        }
-
-        $string = $string.$placeholder;
-        foreach (config('timezone.timezones') as $key => $value) {
-            if ($selected == $value) {
-                $selectedString = "selected='".$value."'";
-            } else {
-                $selectedString = '';
-            }
-
-            $string = $string."<option value='".$value."'".$optionAttributesString." ".$selectedString.">".$key."</option>\n";
-        }
-        $string = $string."</select>";
-
-        return $string;
+    public function toSelectArray()
+    {
+        return $this->getTimezones()
+            ->mapWithKeys(function($timezone) {
+                return [$timezone['id'] => $timezone['title']];
+            });
     }
 
     /**
