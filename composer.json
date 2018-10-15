@@ -1,14 +1,9 @@
 {
     "name": "zaengle/timezone",
-    "description": "Helps manage timezones in Laravel. Includes <select> form builder for timezones.",
-    "homepage": "http://www.camroncade.com/managing-timezones-with-laravel/",
+    "description": "Helps manage timezones in Laravel.",
     "keywords": ["timezone", "timezones"],
     "license": "MIT",
     "authors": [
-        {
-            "name": "Camron Cade",
-            "email": "camron@camroncade.com"
-        },
         {
             "name": "Jesse Schutt",
             "email": "jesse@zaengle.com"
