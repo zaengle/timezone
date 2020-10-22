@@ -3,8 +3,8 @@
 return [
     'timezones' => [
         [
-            'id'      => 'Pacific/Midway',
-            'title'   => '(UTC-11:00) Midway Island',
+            'id'   => '(UTC-11:00) Midway Island',
+            'title'      => 'Pacific/Midway',
             'enabled' => true
         ],
         [
@@ -23,7 +23,7 @@ return [
             'enabled' => true
         ],
         [
-            'id'      => '(UTC-08:00) Pacific Time (US &amp; Canada)',
+            'id'      => '(UTC-08:00) Pacific Time (US & Canada)',
             'title'   => 'America/Los_Angeles',
             'enabled' => true
         ],
@@ -53,7 +53,7 @@ return [
             'enabled' => true
         ],
         [
-            'id'      => '(UTC-07:00) Mountain Time (US &amp; Canada)',
+            'id'      => '(UTC-07:00) Mountain Time (US & Canada)',
             'title'   => 'US/Mountain',
             'enabled' => true
         ],
@@ -63,7 +63,7 @@ return [
             'enabled' => true
         ],
         [
-            'id'      => '(UTC-06:00) Central Time (US &amp; Canada)',
+            'id'      => '(UTC-06:00) Central Time (US & Canada)',
             'title'   => 'US/Central',
             'enabled' => true
         ],
@@ -93,7 +93,7 @@ return [
             'enabled' => true
         ],
         [
-            'id'      => '(UTC-05:00) Eastern Time (US &amp; Canada)',
+            'id'      => '(UTC-05:00) Eastern Time (US & Canada)',
             'title'   => 'US/Eastern',
             'enabled' => true
         ],
