@@ -41,10 +41,10 @@ The third parameter is optional, and default is set to `'Y-m-d H:i:s'`, which is
 Using the `Timezone::toSelectArray()` you can build an array of enabled timezones similar to this:
 
 	[
-        "(UTC-08:00) Pacific Time (US &amp; Canada)" => "America/Los_Angeles",
-        "(UTC-07:00) Mountain Time (US &amp; Canada)" => "US/Mountain",
-        "(UTC-06:00) Central Time (US &amp; Canada)" => "US/Central",
-        "(UTC-05:00) Eastern Time (US &amp; Canada)" => "US/Eastern",
+        "America/Los_Angeles" => "(UTC-08:00) Pacific Time (US &amp; Canada)",
+        "US/Mountain" => "(UTC-07:00) Mountain Time (US &amp; Canada)",
+        "US/Central" => "(UTC-06:00) Central Time (US &amp; Canada)",
+        "US/Eastern" => "(UTC-05:00) Eastern Time (US &amp; Canada)",
 	]
 	
 Then, in your Blade template you have control over formatting:
